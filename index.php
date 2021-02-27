@@ -2,7 +2,7 @@
 
 <main>
   <section class="advice">
-    <h1 class="advice__title">aaim.ro is under construction</h1>
+    <h1 class="advice__title"><?php echo get_site_url(); ?> is under construction</h1>
     <p class="advice__description"><span><</span> building <span>/></span> not finished yet</p>
   </section>
   <section class="city-stuff">

@@ -11,7 +11,9 @@
       // wp_enqueue_style('university_main_styles', get_stylesheet_uri());
 
       wp_enqueue_script('under_construction_scripts', get_theme_file_uri('/build/bundle.js'), NULL, '1.0', true);
-      wp_enqueue_style('under_construction_styles', get_theme_file_uri('/build/styles.css'));
+  
+      wp_register_style('under_construction_styles', get_theme_file_uri('/build/styles.css'), array(), '1.0');
+      wp_enqueue_style('under_construction_styles');
   };
 
   function underConstruction_features() {

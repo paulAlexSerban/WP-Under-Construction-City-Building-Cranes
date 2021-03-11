@@ -359,18 +359,6 @@ html {
 }
 
 /**
- * Basic styles for links
- */
-a {
-  color: #e50050;
-  text-decoration: none;
-}
-a:hover, a:active, a:focus {
-  color: #222222;
-  text-decoration: underline;
-}
-
-/**
  * Basic typography style for copy text
  */
 body {
@@ -445,13 +433,13 @@ main {
   position: relative;
   height: 100vh;
   z-index: -10;
-  background: linear-gradient(to top, #1b1d1d, rgba(255, 255, 255, 0.75));
+  background: linear-gradient(to top, #002929, rgba(174, 239, 255, 0.75));
 }
 
 body {
   font-size: 12px;
   font-family: "Josefin Sans", "Roboto", sans-serif;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(174, 239, 255, 0.75);
   overflow: hidden;
   background-color: #252627;
 }
@@ -496,7 +484,7 @@ body {
   height: 100%;
   bottom: 0;
   overflow: hidden;
-  box-shadow: inset 0 -60px 0 -30px #4bafac;
+  box-shadow: inset 0 -60px 0 -30px #af844b;
 }
 
 .skyscrappers__list {
@@ -509,7 +497,7 @@ body {
   height: inherit;
   bottom: 15%;
   width: 43.3333333333px;
-  background: linear-gradient(115deg, #4bafac 73%, #3c8b89 73%, #3c8b89 100%);
+  background: linear-gradient(115deg, #af844b 73%, #8b693c 73%, #8b693c 100%);
 }
 .skyscrappers__list .skyscrapper__item::after {
   content: "";
@@ -521,7 +509,7 @@ body {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAFElEQVQImWP4////fwYYIJKDEwAAfPsP8eFXG40AAAAASUVORK5CYII=") space;
 }
 .skyscrappers__list .skyscrapper__item:last-child:not(:only-child) {
-  background: #4bafac;
+  background: #af844b;
 }
 .skyscrappers__list .skyscrapper-1 {
   width: 121.3333333333px;
@@ -628,7 +616,7 @@ body {
 }
 .crane__list .crane__item {
   position: absolute;
-  border: solid 1px #4bafac;
+  border: solid 1px #af844b;
   border-radius: 2px;
 }
 .crane__list .crane-cable {
@@ -636,7 +624,7 @@ body {
   height: 1px;
   border: none;
   outline: 1px solid transparent;
-  background: #4bafac;
+  background: #af844b;
   z-index: 0;
 }
 .crane__list .crane-cable-1 {
@@ -671,15 +659,15 @@ body {
   width: 9000%;
   bottom: 0;
   left: -4500%;
-  background: #90d0cd;
-  border: 1px solid #4bafac;
+  background: #d0b490;
+  border: 1px solid #af844b;
 }
 .crane__list .crane-stand {
   width: 5%;
   height: 100%;
   right: 25%;
   z-index: 1;
-  background: linear-gradient(to top, #4bafac, #bfd4d3);
+  background: linear-gradient(to top, #af844b, #d4cbbf);
 }
 .crane__list .crane-weight {
   width: 8%;
@@ -687,7 +675,7 @@ body {
   right: 4%;
   top: 12%;
   z-index: 2;
-  background: #a9d1cf;
+  background: #d1c0a9;
   transform-origin: 0 center;
   -webkit-animation: crane-weight__movement 12s infinite alternate;
           animation: crane-weight__movement 12s infinite alternate;
@@ -698,7 +686,7 @@ body {
   right: 24%;
   top: 20%;
   z-index: 2;
-  background: #a9d1cf;
+  background: #d1c0a9;
 }
 .crane__list .crane-cabin::after {
   content: "";
@@ -716,7 +704,7 @@ body {
   top: 15%;
   border-top-left-radius: 10px;
   z-index: 3;
-  background: #a9d1cf;
+  background: #d1c0a9;
 }
 
 .crane-1 {
@@ -795,7 +783,7 @@ body {
   position: relative;
   border-top: 0 solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 32px solid #4bafac;
+  border-bottom: 32px solid #af844b;
   border-left: 4px solid transparent;
 }
 .tree__leaves::after {
@@ -805,7 +793,7 @@ body {
   left: -4px;
   border-top: 0;
   border-right: 0;
-  border-bottom: 32px solid #3c8b89;
+  border-bottom: 32px solid #8b693c;
   border-left: 4px solid transparent;
 }
 
